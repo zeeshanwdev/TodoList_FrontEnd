@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
           </div>
           
           {/* LordIcon Script using Next.js Script component */}
-          <Script src="https://cdn.lordicon.com/lordicon.js" strategy="beforeInteractive" />
+          <Script src="https://cdn.lordicon.com/lordicon.js" strategy="afterInteractive" />
 
           {children}
         </div>
